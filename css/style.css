@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=My+Soul&family=PT+Sans+Narrow&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: scroll; */
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Libre Bodoni', serif
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+} 
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 38px;
+    border: none;
+    border-radius: 2px;
+    margin: 0 10px 0 56px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 900;
+}
+
+.joke{
+    margin: 4px auto;
+    padding: 12px 0 12px 50px;
+}
+
+.container{
+    min-height:calc(100vh - 58px - 12vh);
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    /* overflow: hidden; */
+}
+
+.card{
+    max-width: 91vw;
+    margin: 28px auto; 
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+.cards:hover{
+    cursor: pointer;
+    
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+.card h2{
+    font-family: 'Libre Bodoni', serif;
+}
+
+ footer{
+    height: 12vh;
+    background-color:  #2874f0;
+     color: white;
+     font-family: 'Libre Bodoni', serif;
+ }     
+
+
+
+  
