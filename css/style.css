@@ -71,6 +71,8 @@ nav ul li a:hover{
 }
 
 .joke{
+    display: flex;
+    justify-content: center;
     margin: 4px auto;
     padding: 12px 0 12px 50px;
 }
@@ -80,10 +82,9 @@ nav ul li a:hover{
 }
 
 .slider{
-    display: flex;
-    justify-content: center;
+    width: 92vw;
     margin: 12px auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .card{
@@ -94,7 +95,7 @@ nav ul li a:hover{
 .cards{
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .cards:hover{
