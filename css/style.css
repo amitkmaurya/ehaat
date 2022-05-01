@@ -94,8 +94,7 @@ nav ul li a:hover{
 
 .cards{
     display: flex;
-    justify-content: center;
-    overflow: hidden;
+    /* justify-content: center; */
 }
 
 .cards:hover{
